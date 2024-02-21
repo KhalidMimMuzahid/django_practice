@@ -7,5 +7,12 @@ django-admin startproject myproject  // for creating project with project name "
 to deactivate virtual environment--> deactivate
 to activate virtual environment--> source venv/bin/activate
 
+create urls.py file inside of myapp folder
+
 
 #URL Routing and django apps
+--> inside myapp folder create urls.py and create urlpatterns
+--> inside myapp Create views here.
+
+--> myproject/myproject/urls.py create urlpatterns and add path('',include('myapp.urls'))
+
