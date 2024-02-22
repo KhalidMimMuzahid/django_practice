@@ -9,7 +9,7 @@ to activate virtual environment--> source venv/bin/activate
 
 create urls.py file inside of myapp folder
 
-for start server, run --> python manage.py runserver
+for start server, first go myproject folder, run --> python manage.py runserver
 
 #URL Routing and django apps
 --> inside myapp folder create urls.py and create urlpatterns
